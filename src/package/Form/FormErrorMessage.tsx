@@ -23,7 +23,7 @@ export const FormErrorMessage = (props: FormErrorMessageProps) => {
 
 export const ErrorMessage = styled.p`
   color: #f64c4c;
-  font-size: 17px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
 `;

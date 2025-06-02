@@ -99,6 +99,7 @@ export const First: Story = {
           <FormLabel>폼 라밸</FormLabel>
           <input {...field} />
           <FormErrorMessage />
+          <FormErrorMessage />
         </FormItem>
       )}
     />
@@ -112,7 +113,7 @@ export const required: Story = {
       name="username"
       render={({ field }) => (
         <FormItem>
-          <FormLabel required>폼 라밸</FormLabel>
+          <FormLabel required>폼 라벨</FormLabel>
           <input {...field} />
           <FormErrorMessage />
         </FormItem>
